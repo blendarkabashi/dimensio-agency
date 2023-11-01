@@ -9,9 +9,9 @@ const navigation = [
   {
     title: 'Work',
     links: [
-      { title: 'FamilyFund', href: '/work/family-fund' },
+      { title: 'FamilyFund', href: '/work/iknow' },
       { title: 'Unseal', href: '/work/unseal' },
-      { title: 'Phobia', href: '/work/phobia' },
+      { title: 'Phobia', href: '/work/finaxys' },
       {
         title: (
           <>
@@ -125,7 +125,7 @@ export function Footer() {
             <Logo className="h-8" fillOnHover />
           </Link>
           <p className="text-sm text-neutral-700">
-            © Studio Agency Inc. {new Date().getFullYear()}
+            © Dimensio Agency LLC, {new Date().getFullYear()}
           </p>
         </div>
       </FadeIn>
