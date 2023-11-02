@@ -1,27 +1,27 @@
-import Image from 'next/image'
+import Image from "next/image";
 
-import { Border } from '@/components/Border'
-import { ContactSection } from '@/components/ContactSection'
-import { Container } from '@/components/Container'
-import { FadeIn, FadeInStagger } from '@/components/FadeIn'
-import { GridList, GridListItem } from '@/components/GridList'
-import { PageIntro } from '@/components/PageIntro'
-import { PageLinks } from '@/components/PageLinks'
-import { SectionIntro } from '@/components/SectionIntro'
-import { StatList, StatListItem } from '@/components/StatList'
-import imageAngelaFisher from '@/images/team/angela-fisher.jpg'
-import imageBenjaminRussel from '@/images/team/benjamin-russel.jpg'
-import imageBlakeReid from '@/images/team/blake-reid.jpg'
-import imageChelseaHagon from '@/images/team/chelsea-hagon.jpg'
-import imageDriesVincent from '@/images/team/dries-vincent.jpg'
-import imageEmmaDorsey from '@/images/team/emma-dorsey.jpg'
-import imageJeffreyWebb from '@/images/team/jeffrey-webb.jpg'
-import imageKathrynMurphy from '@/images/team/kathryn-murphy.jpg'
-import imageLeonardKrasner from '@/images/team/leonard-krasner.jpg'
-import imageLeslieAlexander from '@/images/team/leslie-alexander.jpg'
-import imageMichaelFoster from '@/images/team/michael-foster.jpg'
-import imageWhitneyFrancis from '@/images/team/whitney-francis.jpg'
-import { loadArticles } from '@/lib/mdx'
+import { Border } from "@/components/Border";
+import { ContactSection } from "@/components/ContactSection";
+import { Container } from "@/components/Container";
+import { FadeIn, FadeInStagger } from "@/components/FadeIn";
+import { GridList, GridListItem } from "@/components/GridList";
+import { PageIntro } from "@/components/PageIntro";
+import { PageLinks } from "@/components/PageLinks";
+import { SectionIntro } from "@/components/SectionIntro";
+import { StatList, StatListItem } from "@/components/StatList";
+import imageAngelaFisher from "@/images/team/angela-fisher.jpg";
+import imageBenjaminRussel from "@/images/team/benjamin-russel.jpg";
+import imageBlakeReid from "@/images/team/blake-reid.jpg";
+import imageChelseaHagon from "@/images/team/chelsea-hagon.jpg";
+import imageDriesVincent from "@/images/team/dries-vincent.jpg";
+import imageEmmaDorsey from "@/images/team/emma-dorsey.jpg";
+import imageJeffreyWebb from "@/images/team/jeffrey-webb.jpg";
+import imageKathrynMurphy from "@/images/team/kathryn-murphy.jpg";
+import imageLeonardKrasner from "@/images/team/leonard-krasner.jpg";
+import imageLeslieAlexander from "@/images/team/leslie-alexander.jpg";
+import imageMichaelFoster from "@/images/team/michael-foster.jpg";
+import imageWhitneyFrancis from "@/images/team/whitney-francis.jpg";
+import { loadArticles } from "@/lib/mdx";
 
 function Culture() {
   return (
@@ -37,96 +37,52 @@ function Culture() {
       </SectionIntro>
       <Container className="mt-16">
         <GridList>
-          <GridListItem title="Loyalty" invert>
-            Our team has been with us since the beginning because none of them
-            are allowed to have LinkedIn profiles.
+          <GridListItem title="Collaboration" invert>
+            We believe in the power of collaboration. Teamwork is at the core of
+            our culture, and we actively support and uplift one another. Our
+            projects are the result of collective effort, and we thrive on the
+            strength of our unity.
           </GridListItem>
-          <GridListItem title="Trust" invert>
-            We don’t care when our team works just as long as they are working
-            every waking second.
+          <GridListItem title="Innovation" invert>
+            Innovation is our constant companion. We embrace new ideas, nurture
+            creativity, and challenge the status quo. Our culture encourages
+            every member to be a catalyst for change, pushing the boundaries of
+            whats possible.
           </GridListItem>
-          <GridListItem title="Compassion" invert>
-            You never know what someone is going through at home and we make
-            sure to never find out.
+          <GridListItem title="Client-Centric Approach" invert>
+            Our clients are at the heart of everything we do. We take pride in
+            understanding their unique needs and delivering exceptional
+            solutions. Our culture revolves around exceeding client expectations
+            and building lasting partnerships.
           </GridListItem>
         </GridList>
       </Container>
     </div>
-  )
+  );
 }
 
 const team = [
   {
-    title: 'Leadership',
+    title: "Team",
     people: [
       {
-        name: 'Leslie Alexander',
-        role: 'Co-Founder / CEO',
-        image: { src: imageLeslieAlexander },
-      },
-      {
-        name: 'Michael Foster',
-        role: 'Co-Founder / CTO',
-        image: { src: imageMichaelFoster },
-      },
-      {
-        name: 'Dries Vincent',
-        role: 'Partner & Business Relations',
-        image: { src: imageDriesVincent },
-      },
-    ],
-  },
-  {
-    title: 'Team',
-    people: [
-      {
-        name: 'Chelsea Hagon',
-        role: 'Senior Developer',
+        name: "Blendar Kabashi",
+        role: "Senior Developer",
         image: { src: imageChelseaHagon },
       },
       {
-        name: 'Emma Dorsey',
-        role: 'Senior Designer',
+        name: "Drini Fejzullahu",
+        role: "Senior Developer",
+        image: { src: imageChelseaHagon },
+      },
+      {
+        name: "Emma Dorsey",
+        role: "Senior Designer",
         image: { src: imageEmmaDorsey },
-      },
-      {
-        name: 'Leonard Krasner',
-        role: 'VP, User Experience',
-        image: { src: imageLeonardKrasner },
-      },
-      {
-        name: 'Blake Reid',
-        role: 'Junior Copywriter',
-        image: { src: imageBlakeReid },
-      },
-      {
-        name: 'Kathryn Murphy',
-        role: 'VP, Human Resources',
-        image: { src: imageKathrynMurphy },
-      },
-      {
-        name: 'Whitney Francis',
-        role: 'Content Specialist',
-        image: { src: imageWhitneyFrancis },
-      },
-      {
-        name: 'Jeffrey Webb',
-        role: 'Account Coordinator',
-        image: { src: imageJeffreyWebb },
-      },
-      {
-        name: 'Benjamin Russel',
-        role: 'Senior Developer',
-        image: { src: imageBenjaminRussel },
-      },
-      {
-        name: 'Angela Fisher',
-        role: 'Front-end Developer',
-        image: { src: imageAngelaFisher },
       },
     ],
   },
-]
+];
 
 function Team() {
   return (
@@ -174,47 +130,51 @@ function Team() {
         ))}
       </div>
     </Container>
-  )
+  );
 }
 
 export const metadata = {
-  title: 'About Us',
+  title: "About Us",
   description:
-    'We believe that our strength lies in our collaborative approach, which puts our clients at the center of everything we do.',
-}
+    "We believe that our strength lies in our collaborative approach, which puts our clients at the center of everything we do.",
+};
 
 export default async function About() {
-  let blogArticles = (await loadArticles()).slice(0, 2)
+  let blogArticles = (await loadArticles()).slice(0, 2);
 
   return (
     <>
-      <PageIntro eyebrow="About us" title="Our strength is collaboration">
+      <PageIntro eyebrow="About us" title="Who We Are">
         <p>
-          We believe that our strength lies in our collaborative approach, which
-          puts our clients at the center of everything we do.
+          At Dimensio, we are more than just a team of developers; we are the
+          architects of your digital vision. With a passion for technology and a
+          commitment to excellence, we bring your ideas to life through code,
+          creativity, and collaboration.
         </p>
         <div className="mt-10 max-w-2xl space-y-6 text-base">
           <p>
-            Studio was started by three friends who noticed that developer
-            studios were charging clients double what an in-house team would
-            cost. Since the beginning, we have been committed to doing things
-            differently by charging triple instead.
+            Our team comprises talented software developers and a brilliant
+            designer who adds the aesthetic touch to our creations. Together, we
+            work in harmony to build innovative and user-centric solutions that
+            stand out in the digital landscape.
           </p>
           <p>
-            At Studio, we’re more than just colleagues — we’re a family. This
-            means we pay very little and expect people to work late. We want our
-            employees to bring their whole selves to work. In return, we just
-            ask that they keep themselves there until at least 6:30pm.
+            We believe in the power of innovation, and thats why we constantly
+            push the boundaries of whats possible in the world of web and
+            software development. Our developers are experts in their respective
+            fields, ensuring that every project we undertake is optimized for
+            performance and scalability.
+          </p>
+          <p>
+            Let's Build Together Dimensio is not just a company; it's a
+            partnership. Let's collaborate, innovate, and create something
+            extraordinary together. Whether you have a small web project or a
+            large-scale software application, we're here to turn your vision
+            into a digital reality. Discover the dimensions of possibility with
+            Dimensio!
           </p>
         </div>
       </PageIntro>
-      <Container className="mt-16">
-        <StatList>
-          <StatListItem value="35" label="Underpaid employees" />
-          <StatListItem value="52" label="Placated clients" />
-          <StatListItem value="$25M" label="Invoices billed" />
-        </StatList>
-      </Container>
 
       <Culture />
 
@@ -229,5 +189,5 @@ export default async function About() {
 
       <ContactSection />
     </>
-  )
+  );
 }
