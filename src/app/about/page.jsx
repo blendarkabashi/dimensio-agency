@@ -13,6 +13,7 @@ import imageAngelaFisher from "@/images/team/angela-fisher.jpg";
 import imageBenjaminRussel from "@/images/team/benjamin-russel.jpg";
 import imageBlakeReid from "@/images/team/blake-reid.jpg";
 import imageChelseaHagon from "@/images/team/chelsea-hagon.jpg";
+import blendarkabashi from '@/images/team/blendar-kabashi.jpeg'
 import imageDriesVincent from "@/images/team/dries-vincent.jpg";
 import imageEmmaDorsey from "@/images/team/emma-dorsey.jpg";
 import imageJeffreyWebb from "@/images/team/jeffrey-webb.jpg";
@@ -67,17 +68,17 @@ const team = [
     people: [
       {
         name: "Blendar Kabashi",
-        role: "Senior Developer",
-        image: { src: imageChelseaHagon },
+        role: "Senior Frontend Developer",
+        image: { src: blendarkabashi },
       },
       {
         name: "Drini Fejzullahu",
-        role: "Senior Developer",
+        role: "Senior Backend Developer",
         image: { src: imageChelseaHagon },
       },
       {
-        name: "Emma Dorsey",
-        role: "Senior Designer",
+        name: "Zana Berisha",
+        role: "Senior UI/UX Designer",
         image: { src: imageEmmaDorsey },
       },
     ],

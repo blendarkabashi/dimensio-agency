@@ -45,40 +45,30 @@ function Section({ title, image, children }) {
 
 function Discover() {
   return (
-    <Section title="Discover" image={{ src: imageWhiteboard }}>
+    <Section title="Discovery & Strategy Phase" image={{ src: imageWhiteboard }}>
       <div className="space-y-6 text-base text-neutral-600">
-        <p>
-          We work closely with our clients to understand their{' '}
-          <strong className="font-semibold text-neutral-950">needs</strong> and
-          goals, embedding ourselves in their every day operations to understand
-          what makes their business tick.
-        </p>
-        <p>
-          Our team of private investigators shadow the company director’s for
-          several weeks while our account managers focus on going through their
-          trash. Our senior security experts then perform social engineering
-          hacks to gain access to their{' '}
-          <strong className="font-semibold text-neutral-950">business</strong>{' '}
-          accounts — handing that information over to our forensic accounting
-          team.
-        </p>
-        <p>
-          Once the full audit is complete, we report back with a comprehensive{' '}
-          <strong className="font-semibold text-neutral-950">plan</strong> and,
-          more importantly, a budget.
-        </p>
+
+<p>This is the initial and crucial phase where we engage with you to dive deep into your vision, objectives, and requirements. </p>
+
+<p>
+We conduct thorough research to understand your market position, audience, and competition. Together, we outline the project scope, establish strategic goals, and create a roadmap that will guide the subsequent phases.
+</p>
       </div>
 
       <h3 className="mt-12 font-display text-base font-semibold text-neutral-950">
         Included in this phase
       </h3>
       <TagList className="mt-4">
-        <TagListItem>In-depth questionnaires</TagListItem>
-        <TagListItem>Feasibility studies</TagListItem>
-        <TagListItem>Blood samples</TagListItem>
-        <TagListItem>Employee surveys</TagListItem>
-        <TagListItem>Proofs-of-concept</TagListItem>
-        <TagListItem>Forensic audit</TagListItem>
+
+
+
+
+
+
+        <TagListItem>Comprehensive client interviews</TagListItem>
+        <TagListItem>Market research and analysis</TagListItem>
+        <TagListItem>Competitive landscape assessment</TagListItem>
+        <TagListItem>Strategic goal setting</TagListItem>
       </TagList>
     </Section>
   )
@@ -86,35 +76,18 @@ function Discover() {
 
 function Build() {
   return (
-    <Section title="Build" image={{ src: imageLaptop, shape: 1 }}>
+    <Section title="Design & Development Phase" image={{ src: imageLaptop, shape: 1 }}>
       <div className="space-y-6 text-base text-neutral-600">
-        <p>
-          Based off of the discovery phase, we develop a comprehensive roadmap
-          for each product and start working towards delivery. The roadmap is an
-          intricately tangled mess of technical nonsense designed to drag the
-          project out as long as possible.
-        </p>
-        <p>
-          Each client is assigned a key account manager to keep lines of
-          communication open and obscure the actual progress of the project.
-          They act as a buffer between the client’s incessant nagging and the
-          development team who are hard at work scouring open source projects
-          for code to re-purpose.
-        </p>
-        <p>
-          Our account managers are trained to only reply to client emails after
-          9pm, several days after the initial email. This reinforces the general
-          aura that we are very busy and dissuades clients from asking for
-          changes.
-        </p>
+<p>Armed with insights from the Discovery phase, our team crafts a custom design that aligns with your brand identity and user expectations.</p>
+
+<p> Post design approval, our developers bring the design to life using the latest web technologies. This phase is iterative and collaborative, with regular check-ins for your feedback to ensure alignment with the project goals.</p>
       </div>
 
       <Blockquote
-        author={{ name: 'Debra Fiscal', role: 'CEO of Unseal' }}
+        author={{ name: 'Jordan Marsch', role: 'Chief Product Officer' }}
         className="mt-12"
       >
-        Studio were so regular with their progress updates we almost began to
-        think they were automated!
+Dimensio's precision and attention to detail made us feel intimately involved in every pixel and code line crafted!
       </Blockquote>
     </Section>
   )
@@ -122,52 +95,25 @@ function Build() {
 
 function Deliver() {
   return (
-    <Section title="Deliver" image={{ src: imageMeeting, shape: 2 }}>
+    <Section title="Testing & Launch Phase" image={{ src: imageMeeting, shape: 2 }}>
       <div className="space-y-6 text-base text-neutral-600">
-        <p>
-          About halfway through the Build phase, we push each project out by 6
-          weeks due to a change in{' '}
-          <strong className="font-semibold text-neutral-950">
-            requirements
-          </strong>
-          . This allows us to increase the budget a final time before launch.
-        </p>
-        <p>
-          Despite largely using pre-built components, most of the{' '}
-          <strong className="font-semibold text-neutral-950">progress</strong>{' '}
-          on each project takes place in the final 24 hours. The development
-          time allocated to each client is actually spent making augmented
-          reality demos that go viral on Twitter.
-        </p>
-        <p>
-          We ensure that the main pages of the site are{' '}
-          <strong className="font-semibold text-neutral-950">
-            fully functional
-          </strong>{' '}
-          at launch — the auxiliary pages will, of course, be lorem ipusm shells
-          which get updated as part of our exorbitant{' '}
-          <strong className="font-semibold text-neutral-950">
-            maintenance
-          </strong>{' '}
-          retainer.
-        </p>
+<p>Before any site goes live, it undergoes rigorous testing to ensure functionality across all browsers and devices. We iron out any issues to guarantee a seamless user experience. </p>
+
+<p>Once quality is assured, we proceed to launch, ensuring a smooth transition with minimal downtime. Post-launch, we remain on standby to handle any immediate post-deployment concerns.</p>
       </div>
 
       <h3 className="mt-12 font-display text-base font-semibold text-neutral-950">
         Included in this phase
       </h3>
       <List className="mt-8">
-        <ListItem title="Testing">
-          Our projects always have 100% test coverage, which would be impressive
-          if our tests weren’t as porous as a sieve.
+        <ListItem title="Quality Assurance">
+          We implement comprehensive testing methods to ensure your platform is as flawless and reliable as possible.
         </ListItem>
-        <ListItem title="Infrastructure">
-          To ensure reliability we only use the best Digital Ocean droplets that
-          $4 a month can buy.
+        <ListItem title="Premium Hosting Solutions">
+          We provide top-of-the-line server environments to ensure your website's performance is swift and stable around the clock.
         </ListItem>
-        <ListItem title="Support">
-          Because we hold the API keys for every critical service your business
-          uses, you can expect a lifetime of support, and invoices, from us.
+        <ListItem title="Ongoing Support">
+          With our commitment to your long-term success, we offer enduring support and maintenance to keep your operations running smoothly.
         </ListItem>
       </List>
     </Section>
@@ -186,42 +132,34 @@ function Values() {
 
       <SectionIntro
         eyebrow="Our values"
-        title="Balancing reliability and innovation"
+        title="Fostering Excellence and Innovation"
       >
         <p>
-          We strive to stay at the forefront of emerging trends and
-          technologies, while completely ignoring them and forking that old
-          Rails project we feel comfortable using. We stand by our core values
-          to justify that decision.
+          At Dimensio, we prioritize innovative web solutions built on a foundation of reliability, ensuring every project meets the highest standards of excellence.
         </p>
       </SectionIntro>
 
+
+
       <Container className="mt-24">
         <GridList>
-          <GridListItem title="Meticulous">
-            The first part of any partnership is getting our designer to put
-            your logo in our template. The second step is getting them to do the
-            colors.
+          <GridListItem title="Commitment to Excellence">
+            We are dedicated to delivering only the highest quality in web development, ensuring that every project meets rigorous standards and exceeds client expectations.
           </GridListItem>
-          <GridListItem title="Efficient">
-            We pride ourselves on never missing a deadline which is easy because
-            most of the work was done years ago.
+          <GridListItem title="Client-Centric Approach">
+            Our clients are at the heart of everything we do. We listen, adapt, and tailor our solutions to meet the unique demands of your business, ensuring a personalized and effective outcome.
           </GridListItem>
-          <GridListItem title="Adaptable">
-            Every business has unique needs and our greatest challenge is
-            shoe-horning those needs into something we already built.
+          <GridListItem title="Integrity and Transparency">
+            Honesty is our policy. We communicate openly with our clients, providing clear timelines and full visibility into our processes, so you're informed at every step.
           </GridListItem>
-          <GridListItem title="Honest">
-            We are transparent about all of our processes, banking on the simple
-            fact our clients never actually read anything.
+          <GridListItem title="Innovation and Growth">
+            Technology never stands still, and neither do we. We're constantly exploring, learning, and integrating cutting-edge technologies to keep our clients ahead of the curve.
           </GridListItem>
-          <GridListItem title="Loyal">
-            We foster long-term relationships with our clients that go beyond
-            just delivering a product, allowing us to invoice them for decades.
+          <GridListItem title="Partnership and Collaboration">
+            We believe in building strong, enduring partnerships with our clients. Your success is our success, and we work alongside you to ensure your web presence is powerful and effective.
           </GridListItem>
-          <GridListItem title="Innovative">
-            The technological landscape is always evolving and so are we. We are
-            constantly on the lookout for new open source projects to clone.
+          <GridListItem title="Efficiency and Agility">
+            Time is valuable, and we strive to deliver swift and agile solutions without compromising on the meticulous attention to detail that sets us apart.
           </GridListItem>
         </GridList>
       </Container>
@@ -240,9 +178,7 @@ export default function Process() {
     <>
       <PageIntro eyebrow="Our process" title="How we work">
         <p>
-          We believe in efficiency and maximizing our resources to provide the
-          best value to our clients. The primary way we do that is by re-using
-          the same five projects we’ve been developing for the past decade.
+At Dimensio Agency, we begin by understanding your digital goals, then rapidly move into the design and development phase to bring your web vision to life with efficiency and precision.
         </p>
       </PageIntro>
 

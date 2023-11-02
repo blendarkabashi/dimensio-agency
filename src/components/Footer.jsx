@@ -7,22 +7,6 @@ import { socialMediaProfiles } from '@/components/SocialMedia'
 
 const navigation = [
   {
-    title: 'Work',
-    links: [
-      { title: 'FamilyFund', href: '/work/iknow' },
-      { title: 'Unseal', href: '/work/unseal' },
-      { title: 'Phobia', href: '/work/finaxys' },
-      {
-        title: (
-          <>
-            See all <span aria-hidden="true">&rarr;</span>
-          </>
-        ),
-        href: '/work',
-      },
-    ],
-  },
-  {
     title: 'Company',
     links: [
       { title: 'About', href: '/about' },
@@ -30,10 +14,6 @@ const navigation = [
       { title: 'Blog', href: '/blog' },
       { title: 'Contact us', href: '/contact' },
     ],
-  },
-  {
-    title: 'Connect',
-    links: socialMediaProfiles,
   },
 ]
 
