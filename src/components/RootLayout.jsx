@@ -223,10 +223,27 @@ function RootLayoutInner({ children }) {
                     />
                   </div>
                   <div className="sm:border-l sm:border-transparent sm:pl-16">
-                    <h2 className="font-display text-base font-semibold text-white">
-                      Follow us
-                    </h2>
-                    <SocialMedia className="mt-6" invert />
+        <h2 className="font-display text-base font-semibold text-white">
+          Email us
+        </h2>
+        <dl className="mt-6 grid grid-cols-1 gap-8 text-sm sm:grid-cols-2">
+          {[
+            ['Info', 'info@dimensioagency.com'],
+            ['Sales', 'sales@dimensioagency.com'],
+          ].map(([label, email]) => (
+            <div key={email}>
+              <dt className="font-semibold text-white">{label}</dt>
+              <dd>
+                <Link
+                  href={`mailto:${email}`}
+                  className="text-white hover:text-white"
+                >
+                  {email}
+                </Link>
+              </dd>
+            </div>
+          ))}
+        </dl>
                   </div>
                 </div>
               </Container>
