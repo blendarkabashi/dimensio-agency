@@ -8,21 +8,9 @@ import { GridList, GridListItem } from "@/components/GridList";
 import { PageIntro } from "@/components/PageIntro";
 import { PageLinks } from "@/components/PageLinks";
 import { SectionIntro } from "@/components/SectionIntro";
-import { StatList, StatListItem } from "@/components/StatList";
-import imageAngelaFisher from "@/images/team/angela-fisher.jpg";
-import imageBenjaminRussel from "@/images/team/benjamin-russel.jpg";
-import imageBlakeReid from "@/images/team/blake-reid.jpg";
-import imageChelseaHagon from "@/images/team/chelsea-hagon.jpg";
-import blendarkabashi from '@/images/team/blendar-kabashi.jpeg'
-import imageDriesVincent from "@/images/team/dries-vincent.jpg";
-import imageEmmaDorsey from "@/images/team/emma-dorsey.jpg";
-import albingashi from '@/images/team/albin-gashi.png'
-import imageJeffreyWebb from "@/images/team/jeffrey-webb.jpg";
-import imageKathrynMurphy from "@/images/team/kathryn-murphy.jpg";
-import imageLeonardKrasner from "@/images/team/leonard-krasner.jpg";
-import imageLeslieAlexander from "@/images/team/leslie-alexander.jpg";
-import imageMichaelFoster from "@/images/team/michael-foster.jpg";
-import imageWhitneyFrancis from "@/images/team/whitney-francis.jpg";
+import blendarkabashi from "@/images/team/blendar-kabashi.jpeg";
+import drinifejzullahu from "@/images/team/drini-fejzullahu.jpg";
+import albingashi from "@/images/team/albin-gashi.png";
 import { loadArticles } from "@/lib/mdx";
 
 function Culture() {
@@ -75,7 +63,7 @@ const team = [
       {
         name: "Drini Fejzullahu",
         role: "Senior Backend Developer",
-        image: { src: imageChelseaHagon },
+        image: { src: drinifejzullahu },
       },
       {
         name: "Albin Gashi",
