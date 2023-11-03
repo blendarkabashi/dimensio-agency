@@ -23,8 +23,7 @@ export default async function Blog() {
     <>
       <PageIntro eyebrow="Blog" title="The latest articles and news">
         <p>
-          Stay up-to-date with the latest industry news as our marketing teams
-          finds new ways to re-purpose old CSS tricks articles.
+          Stay informed on the latest developments and innovations in the industry with our curated news and insights.
         </p>
       </PageIntro>
 
@@ -45,22 +44,6 @@ export default async function Blog() {
                           <time dateTime={article.date}>
                             {formatDate(article.date)}
                           </time>
-                        </dd>
-                        <dt className="sr-only">Author</dt>
-                        <dd className="mt-6 flex gap-x-4">
-                          <div className="flex-none overflow-hidden rounded-xl bg-neutral-100">
-                            <Image
-                              alt=""
-                              {...article.author.image}
-                              className="h-12 w-12 object-cover grayscale"
-                            />
-                          </div>
-                          <div className="text-sm text-neutral-950">
-                            <div className="font-semibold">
-                              {article.author.name}
-                            </div>
-                            <div>{article.author.role}</div>
-                          </div>
                         </dd>
                       </dl>
                       <p className="mt-6 max-w-2xl text-base text-neutral-600">
