@@ -87,7 +87,7 @@ function Build() {
         author={{ name: 'Jordan Marsch', role: 'Chief Product Officer' }}
         className="mt-12"
       >
-Dimensio's precision and attention to detail made us feel intimately involved in every pixel and code line crafted!
+Dimensio&apos;s precision and attention to detail made us feel intimately involved in every pixel and code line crafted!
       </Blockquote>
     </Section>
   )
@@ -110,7 +110,7 @@ function Deliver() {
           We implement comprehensive testing methods to ensure your platform is as flawless and reliable as possible.
         </ListItem>
         <ListItem title="Premium Hosting Solutions">
-          We provide top-of-the-line server environments to ensure your website's performance is swift and stable around the clock.
+          We provide top-of-the-line server environments to ensure your website&apos;s performance is swift and stable around the clock.
         </ListItem>
         <ListItem title="Ongoing Support">
           With our commitment to your long-term success, we offer enduring support and maintenance to keep your operations running smoothly.
@@ -150,10 +150,10 @@ function Values() {
             Our clients are at the heart of everything we do. We listen, adapt, and tailor our solutions to meet the unique demands of your business, ensuring a personalized and effective outcome.
           </GridListItem>
           <GridListItem title="Integrity and Transparency">
-            Honesty is our policy. We communicate openly with our clients, providing clear timelines and full visibility into our processes, so you're informed at every step.
+            Honesty is our policy. We communicate openly with our clients, providing clear timelines and full visibility into our processes, so you&apos;re informed at every step.
           </GridListItem>
           <GridListItem title="Innovation and Growth">
-            Technology never stands still, and neither do we. We're constantly exploring, learning, and integrating cutting-edge technologies to keep our clients ahead of the curve.
+            Technology never stands still, and neither do we. We&apos;re constantly exploring, learning, and integrating cutting-edge technologies to keep our clients ahead of the curve.
           </GridListItem>
           <GridListItem title="Partnership and Collaboration">
             We believe in building strong, enduring partnerships with our clients. Your success is our success, and we work alongside you to ensure your web presence is powerful and effective.

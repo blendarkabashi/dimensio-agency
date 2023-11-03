@@ -168,10 +168,10 @@ export default async function About() {
             performance and scalability.
           </p>
           <p>
-            Let's Build Together Dimensio is not just a company; it's a
-            partnership. Let's collaborate, innovate, and create something
+            Let&apos;s Build Together Dimensio is not just a company; it&apos;s a
+            partnership. Let&apos;s collaborate, innovate, and create something
             extraordinary together. Whether you have a small web project or a
-            large-scale software application, we're here to turn your vision
+            large-scale software application, we&apos;re here to turn your vision
             into a digital reality. Discover the dimensions of possibility with
             Dimensio!
           </p>

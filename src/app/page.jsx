@@ -35,7 +35,7 @@ function Clients() {
         <FadeIn className="flex items-center gap-x-8">
           <div>
           <h2 className="text-center font-display text-sm font-semibold tracking-wider text-white sm:text-left">
-            Have an idea but don't know how to bring it to life? Let's get in touch today!
+            Have an idea but don&apos;t know how to bring it to life? Let&apos;s get in touch today!
           </h2>
           <p className="text-gray-400">We pride ourselves in being able to bring your concepts to life, while making you aware of the challenges involved.</p>
           </div>
@@ -141,7 +141,7 @@ export default async function Home() {
             Welcome to Dimensio Agency
           </h1>
           <p className="mt-6 text-xl text-neutral-600">
-            We're not just a web development agency; we're your digital architects. We build robust, tailored online experiences that not only look stunning but also drive business growth. Whether you're a startup or an established brand, we're committed to your online success from concept to code.
+            We&apos;re not just a web development agency; we&apos;re your digital architects. We build robust, tailored online experiences that not only look stunning but also drive business growth. Whether you&apos;re a startup or an established brand, we&apos;re committed to your online success from concept to code.
           </p>
         </FadeIn>
       </Container>
