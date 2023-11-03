@@ -63,7 +63,7 @@ const team = [
       {
         name: "Drini Fejzullahu",
         role: "Senior Backend Developer",
-        image: { src: drinifejzullahu },
+        image: { src: drinifejzullahu},
       },
       {
         name: "Albin Gashi",
