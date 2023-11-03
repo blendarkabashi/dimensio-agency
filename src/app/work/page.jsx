@@ -146,7 +146,7 @@ export default async function Work() {
         className="mt-24 sm:mt-32 lg:mt-40"
         client={{ name: 'Mail Smirk', logo: logoMailSmirk }}
       >
-        Our collaboration with Dimensio felt less like a service and more like a partnership with passionate experts dedicated to our success.
+        Our collaboration with Dimensio felt less like a service and more like a partnership with passionate experts dedicated to our success. 
       </Testimonial>
 
       <ContactSection />
