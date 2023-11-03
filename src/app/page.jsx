@@ -30,16 +30,16 @@ const clients = [
 
 function Clients() {
   return (
-    <div className="mx-auto max-w-7xl mt-24 rounded-4xl bg-neutral-950 py-20 sm:mt-32 sm:py-32 lg:mt-56">
+    <div className="lg:mx-auto mx-5 max-w-7xl mt-24 rounded-4xl bg-neutral-950 py-20 sm:mt-32 sm:py-32 lg:mt-56">
       <Container>
         <FadeIn className="flex items-center gap-x-8">
-          <div>
+          <div className="text-center">
           <h2 className="text-center font-display text-sm font-semibold tracking-wider text-white sm:text-left">
             Have an idea but don&apos;t know how to bring it to life? Let&apos;s get in touch today!
           </h2>
           <p className="text-gray-400">We pride ourselves in being able to bring your concepts to life, while making you aware of the challenges involved.</p>
           </div>
-          <div className="h-px flex-auto bg-neutral-800" />
+          <div className="xl:block hidden h-px flex-auto bg-neutral-800" />
         </FadeIn>
       </Container>
     </div>
