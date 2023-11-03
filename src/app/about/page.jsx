@@ -16,6 +16,7 @@ import imageChelseaHagon from "@/images/team/chelsea-hagon.jpg";
 import blendarkabashi from '@/images/team/blendar-kabashi.jpeg'
 import imageDriesVincent from "@/images/team/dries-vincent.jpg";
 import imageEmmaDorsey from "@/images/team/emma-dorsey.jpg";
+import albingashi from '@/images/team/albin-gashi.png'
 import imageJeffreyWebb from "@/images/team/jeffrey-webb.jpg";
 import imageKathrynMurphy from "@/images/team/kathryn-murphy.jpg";
 import imageLeonardKrasner from "@/images/team/leonard-krasner.jpg";
@@ -77,9 +78,9 @@ const team = [
         image: { src: imageChelseaHagon },
       },
       {
-        name: "Zana Berisha",
+        name: "Albin Gashi",
         role: "Senior UI/UX Designer",
-        image: { src: imageEmmaDorsey },
+        image: { src: albingashi },
       },
     ],
   },
