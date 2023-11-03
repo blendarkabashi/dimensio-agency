@@ -10,6 +10,7 @@ import { PageLinks } from "@/components/PageLinks";
 import { SectionIntro } from "@/components/SectionIntro";
 import blendarkabashi from "@/images/team/blendar-kabashi.jpeg";
 import drinifejzullahu from "@/images/team/drini-fejzullahu.JPG";
+import arditheqimi from "@/images/team/ardit-heqimi.jpg";
 import albingashi from "@/images/team/albin-gashi.png";
 import { loadArticles } from "@/lib/mdx";
 
@@ -70,6 +71,11 @@ const team = [
         role: "Senior UI/UX Designer",
         image: { src: albingashi },
       },
+      {
+        name: "Ardit Heqimi",
+        role: "QA Tester",
+        image: { src: arditheqimi },
+      },
     ],
   },
 ];
@@ -90,7 +96,7 @@ function Team() {
               <div className="lg:col-span-3">
                 <ul
                   role="list"
-                  className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:gap-8"
+                  className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-2 xl:gap-8"
                 >
                   {group.people.map((person) => (
                     <li key={person.name}>

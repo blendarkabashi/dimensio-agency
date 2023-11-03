@@ -95,14 +95,14 @@ export function Footer() {
     <Container as="footer" className="mt-24 w-full sm:mt-32 lg:mt-40">
       <FadeIn>
         <div className="mb-20 mt-24 flex flex-wrap items-end justify-between gap-x-6 gap-y-4 border-t border-neutral-950/10 pt-12">
-                  <div className="grid grid-cols-1 gap-x-8 gap-y-16 lg:grid-cols-2">
+                  <div className="lg:grid hidden grid grid-cols-1 gap-x-8 gap-y-16 lg:grid-cols-2">
           <Navigation />
         </div>
-        <div>
-          <Link href="/" aria-label="Home" className="mb-3 flex justify-end">
+        <div className="lg:w-auto w-full">
+          <Link href="/" aria-label="Home" className="mb-3 flex lg:justify-end justify-center">
             <Logo className="h-8" fillOnHover />
           </Link>
-          <p className="mt-4 text-sm text-neutral-700">
+          <p className="lg:mt-4 mt-5 text-center text-sm text-neutral-700">
             © Dimensio Agency LLC, {new Date().getFullYear()}
           </p>
         </div>
