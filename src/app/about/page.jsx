@@ -9,7 +9,7 @@ import { PageIntro } from "@/components/PageIntro";
 import { PageLinks } from "@/components/PageLinks";
 import { SectionIntro } from "@/components/SectionIntro";
 import blendarkabashi from "@/images/team/blendar-kabashi.jpeg";
-import drinifejzullahu from "@/images/team/drini-fejzullahu.jpg";
+import drinifejzullahu from "@/images/team/drini-fejzullahu.JPG";
 import albingashi from "@/images/team/albin-gashi.png";
 import { loadArticles } from "@/lib/mdx";
 
