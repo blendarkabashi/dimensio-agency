@@ -153,7 +153,7 @@ export default async function Home() {
       <Testimonial
         className="mt-24 sm:mt-32 lg:mt-40 italic"
       >
-        We believe in transforming ideas into exceptional web experiences, utilizing the latest technology stacks to create user-centric designs and robust web applications. <br/><br/> Your vision, our innovation - together, we build the digital future.
+        Your vision, our innovation - together, we build the digital future.
       </Testimonial>
 
       <Services />
